@@ -1,0 +1,202 @@
+/*
+Theme Name: MyThemeDent
+Author: cmax / Karpov K.M
+Description: This is site for Dentistry
+Requires PHP: 8.0
+Version: 0.1
+ */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --bcBlue: #191a2a;
+    --bcBlue2: #145277;
+    --bcBlue3: #000328;
+
+    --blue1: #210CAE;
+    --blue2: #282CB7;
+    --blue3: #0B3866;
+    --blue4: #121B67;
+
+    --blue5: #142850;
+
+    --black1: #222;
+    --black2: #999;
+
+    --milkWhite: #fbf3f2;
+    --milkBlue: #DAE1E7;
+    --milkBlueOp: rgba(218, 225, 231, 0.7);
+
+    --wtBlue1: #4DC9E6;
+    --wtBlue2: #12CFF3;
+    --wtBlue3: #12CFF3;
+    --wtBlue4: #12CFF3;
+
+    --wtBlue5: #00909E;
+
+    --green1: #49ECB8;
+    --green2: #2E7775;
+    --green3: #02DA82;
+    --green4: #00EE6E;
+
+    --bgNav: #f3f3f357;
+    /*--bgNav: #f3f3f357;*/
+
+}
+
+body {
+    background-color: var(--milkBlue);
+}
+#nav{
+    background-color: var(--milkBlue);
+}
+
+
+
+    /*MAIN*/
+
+
+.main{
+    width: 100%;
+    height: 32rem;
+    /*border: black 1px solid;*/
+    color: var(--blue5);
+}
+
+
+.leftBlock{
+    width: 32rem;
+    height: 100%;
+    /*border: black 1px solid;*/
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.top_block{
+    width: 32rem;
+    margin: 4rem 1rem;
+    text-align: center;
+    box-shadow: #00909E 0px 1px 4px;
+}
+.top_block h1{
+    font-size: 4rem;
+
+}
+.top_block p{
+    Letter-spacing: 3.5px;
+}
+
+
+.facts_list{
+    position: relative;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 10px;
+    height: 120%;
+    top: -30px;
+}
+
+
+.facts_block{
+    display: grid;
+    color: var(--blue5);
+    width: 250px;
+    height: 120px;
+    /*border: black 1px solid;*/
+    text-align: center;
+    margin: auto;
+    align-items: center;
+
+    /*box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, var(--wtBlue5) 0px 1px 3px -1px;
+}
+
+
+.facts_block span{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+.facts_block p{
+    font-size: 1.1rem;
+}
+
+    /*END MAIN*/
+
+
+    /*FACTS BLOCK*/
+
+.more_facts{
+    margin-top: 8rem;
+}
+
+.detailFacts{
+    margin: 4rem 0;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.headBlock{
+    width: 50%;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    font-size: 2rem;
+    border-bottom: 1px solid var(--wtBlue5);
+    text-align: center;
+    color: var(--blue5);
+}
+
+#carousel-inner{
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+#carousel-inner div{
+    margin: 1rem auto 4rem auto;
+    color: var(--blue5);
+    height: 10rem;
+    text-align: center;
+}
+
+    /*END FACTS BLOCK*/
+
+
+    /*CONTACTS*/
+
+.contacts{
+    margin-top: 5rem;
+}
+
+.cont-block-list{
+    width: 100%;
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-around;
+}
+
+.cont-block{
+    display: grid;
+}
+.cont-block h1{
+
+}
+.cont-block p, a{
+    text-decoration: none;
+    color: var(--blue5);
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+

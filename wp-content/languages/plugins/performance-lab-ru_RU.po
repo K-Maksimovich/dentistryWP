@@ -1,0 +1,340 @@
+# Translation of Plugins - Performance Lab - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Performance Lab - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-11 09:46:22+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.10\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Performance Lab - Stable (latest release)\n"
+
+#: modules/images/webp-uploads/load.php:30
+msgid "The WebP Uploads feature cannot be loaded from within the plugin since it is already merged into WordPress core."
+msgstr "Функциональность загрузки WebP не может быть добавлена из плагина, поскольку она уже встроена в ядро WordPress."
+
+#: admin/load.php:169
+msgid "The module cannot be managed with Performance Lab since it is already active as a standalone plugin."
+msgstr "Модулем нельзя управлять с помощью Performance Lab, поскольку он уже активен как автономный плагин."
+
+#: server-timing/class-perflab-server-timing.php:134
+msgid "The method must be called before headers have been sent."
+msgstr "Этот метод должен вызываться перед отправкой заголовков."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:92
+msgid "The %s argument is required and must be a string."
+msgstr "Аргумент %s является обязательным и должен быть строкой."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:83
+msgid "The %s argument is required and must be a callable."
+msgstr "Аргумент %s является обязательным и должен быть вызываемым."
+
+#. translators: %s: metric slug
+#: server-timing/class-perflab-server-timing.php:56
+msgid "A metric with the slug %s is already registered."
+msgstr "Метрика с идентификатором %s уже зарегистрирована."
+
+#. translators: %s: PHP method name
+#: server-timing/class-perflab-server-timing-metric.php:137
+msgid "The %s method must be called before."
+msgstr "Метод %s должен вызываться раньше."
+
+#. translators: %s: WordPress action name
+#: server-timing/class-perflab-server-timing-metric.php:87
+#: server-timing/class-perflab-server-timing.php:66
+msgid "The method must be called before or during the %s action."
+msgstr "Метод должен вызываться до или во время действия %s."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing-metric.php:77
+msgid "The %s parameter must be an integer, float, or numeric string."
+msgstr "Параметр %s должен быть целым числом, строкой с плавающей запятой или числовой строкой."
+
+#: modules/images/webp-uploads/settings.php:40
+msgid "WebP and JPEG"
+msgstr "WebP и JPEG"
+
+#: admin/load.php:204
+msgid "Database"
+msgstr "База данных"
+
+#: admin/load.php:201
+msgid "JS & CSS"
+msgstr "JS и CSS"
+
+#: modules/images/webp-uploads/settings.php:66
+msgid "Enabling JPEG in addition to WebP can improve compatibility, but will effectively double the filesystem storage use of your images."
+msgstr "Включение JPEG в дополнение к WebP может улучшить совместимость, но фактически удвоит использование хранилища файловой системы для ваших изображений."
+
+#: modules/images/webp-uploads/settings.php:64
+msgid "Generate JPEG files in addition to WebP"
+msgstr "Генерировать файлы JPEG в дополнение к WebP"
+
+#: modules/database/audit-autoloaded-options/helper.php:145
+msgid "Size"
+msgstr "Размер"
+
+#: modules/database/audit-autoloaded-options/helper.php:144
+msgid "Option Name"
+msgstr "Название параметра"
+
+#. Author URI of the plugin
+msgid "https://make.wordpress.org/performance/"
+msgstr "https://make.wordpress.org/performance/"
+
+#: module-i18n.php:10
+msgctxt "module name"
+msgid "Enqueued Assets Health Check"
+msgstr "Проверка работоспособности поставленных в очередь активов"
+
+#: module-i18n.php:12
+msgctxt "module name"
+msgid "Autoloaded Options Health Check"
+msgstr "Проверка работоспособности автозагружаемых параметров"
+
+#: module-i18n.php:6
+msgctxt "module name"
+msgid "WebP Support Health Check"
+msgstr "Проверка работоспособности поддержки WebP"
+
+#: modules/images/dominant-color-images/helper.php:57
+msgid "Unable to load image."
+msgstr "Не удалось загрузить изображение."
+
+#. translators: %s: module name
+#: admin/load.php:173
+msgid "%s is already part of your WordPress version and therefore cannot be loaded as part of the plugin."
+msgstr "%s уже является частью вашей версии WordPress и поэтому не может быть загружен как часть плагина."
+
+#. translators: %s is the error message
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:96
+msgid "Transparency detection failed: %s"
+msgstr "Не удалось определить прозрачность: %s"
+
+#. translators: %s is the error message.
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:49
+msgid "Dominant color detection failed: %s"
+msgstr "Не удалось определить доминирующий цвет: %s"
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:62
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:64
+msgid "Transparency detection no image found."
+msgstr "Не удалось обнаружить изображение для определения прозрачности."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:44
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:43
+msgid "Dominant color detection failed."
+msgstr "Не удалось определить доминирующий цвет."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:32
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:32
+msgid "Dominant color detection no image found."
+msgstr "Не удалось обнаружить изображение для определения доминирующего цвета."
+
+#: module-i18n.php:5
+msgctxt "module description"
+msgid "Adds support to store the dominant color of newly uploaded images and create a placeholder background of that color."
+msgstr "Добавлена поддержка для сохранения доминирующего цвета недавно загруженных изображений и создания фона-заполнителя этого цвета."
+
+#: modules/database/audit-autoloaded-options/helper.php:78
+msgid "https://wordpress.org/support/article/optimization/#autoloaded-options"
+msgstr "https://wordpress.org/support/article/optimization/#autoloaded-options"
+
+#. translators: Accessibility text.
+#: modules/images/webp-support/helper.php:44
+msgid "WebP support can only be enabled by your hosting provider, so contact them for more information."
+msgstr "Поддержку WebP может включить только хостинг-провайдер, поэтому свяжитесь с ним для получения дополнительной информации."
+
+#: modules/images/webp-support/helper.php:30
+msgid "The WebP image format produces images that are usually smaller in size than JPEG images, which can reduce page load time and consume less bandwidth."
+msgstr "Формат изображения WebP обычно меньше по размеру, чем JPEG, что может сократить время загрузки страницы и расходовать меньше трафика."
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:61
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which could cause your site to be slow. You can reduce the number of autoloaded options by cleaning up your site's options table."
+msgstr "В таблице опций сайта есть автоматически загружаемые опции в количестве %1$s шт. (размером: %2$s), что может привести к замедлению работы сайта. Можно уменьшить количество автоматически загружаемых параметров, очистив таблицу параметров сайта."
+
+#: modules/database/audit-autoloaded-options/helper.php:58
+msgid "Autoloaded options could affect performance"
+msgstr "Автозагружаемые параметры могут влиять на производительность."
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:36
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which is acceptable."
+msgstr "В таблице опций сайта есть автоматически загружаемые опции в количестве %1$s шт. (размером: %2$s), что допустимо."
+
+#: modules/database/audit-autoloaded-options/helper.php:28
+msgid "Autoloaded options are acceptable"
+msgstr "Автозагружаемые параметры приемлемы"
+
+#: modules/database/audit-autoloaded-options/helper.php:25
+msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
+msgstr "Автозагружаемые параметры – это параметры конфигурации для плагинов и тем, которые автоматически загружаются при каждой загрузке страницы в WordPress. Наличие слишком большого количества автоматически загружаемых параметров может замедлить работу сайта."
+
+#: modules/database/audit-autoloaded-options/hooks.php:23
+msgid "Autoloaded options"
+msgstr "Автозагружаемые параметры"
+
+#: modules/images/webp-uploads/helper.php:140
+msgid "At least one of the dimensions must be a positive number."
+msgstr "Хотя бы одно из измерений должно быть положительным числом."
+
+#: modules/images/webp-uploads/helper.php:128
+msgid "The original image file does not exists, subsizes are created out of the original image."
+msgstr "Исходный файл изображения не обнаружен, из исходного изображения создаются дополнительные размеры."
+
+#: module-i18n.php:13
+msgctxt "module description"
+msgid "Adds a check for autoloaded options in Site Health status."
+msgstr "Добавить проверку автоматически загружаемых параметров в статусе \"Здоровье сайта\"."
+
+#: modules/images/webp-support/helper.php:40
+msgid "Your site does not support WebP"
+msgstr "Этот сайт не поддерживает WebP"
+
+#: modules/images/webp-support/helper.php:22
+msgid "Your site supports WebP"
+msgstr "Этот сайт поддерживает WebP"
+
+#: modules/images/webp-support/hooks.php:23
+msgid "WebP Support"
+msgstr "Поддержка WebP"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:123
+msgid "Enqueued styles"
+msgstr "Поставленные в очередь стили"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:100
+#: modules/js-and-css/audit-enqueued-assets/helper.php:192
+msgid "Clean Test Cache"
+msgstr "Очистить кеш тестов"
+
+#: modules/database/audit-autoloaded-options/helper.php:79
+#: modules/js-and-css/audit-enqueued-assets/helper.php:98
+#: modules/js-and-css/audit-enqueued-assets/helper.php:190
+msgid "More info about performance optimization"
+msgstr "Допо. информация об оптимизации производительности"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:97
+#: modules/js-and-css/audit-enqueued-assets/helper.php:189
+msgid "https://wordpress.org/support/article/optimization/"
+msgstr "https://wordpress.org/support/article/optimization/"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:30
+msgid "Enqueued scripts"
+msgstr "Скрипты в очереди"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:116
+msgid "CSS assets"
+msgstr "CSS-активы"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:112
+msgid "JS assets"
+msgstr "JS-активы"
+
+#: modules/images/webp-uploads/helper.php:168
+msgid "The file key is not present on the image data"
+msgstr "Ключ файла отсутствует в данных изображения"
+
+#: modules/images/webp-uploads/helper.php:123
+msgid "The provided mime type is not supported."
+msgstr "Указанный тип mime не поддерживается."
+
+#: modules/images/webp-uploads/helper.php:119
+msgid "The provided mime type is not allowed."
+msgstr "Предоставленный тип mime не разрешен."
+
+#: modules/images/webp-uploads/helper.php:201
+msgid "The image does not have a valid metadata."
+msgstr "У изображения нет корректных метаданных."
+
+#: module-i18n.php:7
+msgctxt "module description"
+msgid "Adds a WebP support check in Site Health status."
+msgstr "Добавить проверку поддержки WebP в статусе \"Здоровье сайта\"."
+
+#: module-i18n.php:11
+msgctxt "module description"
+msgid "Adds a CSS and JS resource check in Site Health status."
+msgstr "Добавить проверку ресурсов CSS и JS в статусе \"Здоровье сайта\"."
+
+#: module-i18n.php:9
+msgctxt "module description"
+msgid "Creates WebP versions for new JPEG image uploads if supported by the server."
+msgstr "Создает версии WebP для новых загруженных изображений JPEG, если это поддерживается сервером."
+
+#: module-i18n.php:8
+msgctxt "module name"
+msgid "WebP Uploads"
+msgstr "Загрузки WebP"
+
+#: admin/load.php:482
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/load.php:426
+msgid "Settings > Performance"
+msgstr "Настройки > Производительность"
+
+#. translators: %s: settings page link
+#: admin/load.php:425
+msgid "You can now test upcoming WordPress performance features. Open %s to individually toggle the performance features included in the plugin."
+msgstr "Теперь вы можете протестировать будущие функции производительности WordPress. Откройте %s, чтобы по отдельности переключать функции производительности, включенные в плагин."
+
+#: admin/load.php:210
+msgid "Object Cache"
+msgstr "Кэш объекта"
+
+#: admin/load.php:207
+msgid "Measurement"
+msgstr "Измерение"
+
+#: admin/load.php:198
+msgid "Images"
+msgstr "Изображения"
+
+#. translators: %s: module name
+#: admin/load.php:159
+msgid "Enable %s"
+msgstr "Включить %s"
+
+#. translators: %s: module name
+#: admin/load.php:151
+msgid "Enable %s <strong>(experimental)</strong>"
+msgstr "Включить %s <strong>(экспериментально)</strong>"
+
+#: admin/load.php:61
+msgid "Other"
+msgstr "Другое"
+
+#: admin/load.php:25 modules/database/audit-autoloaded-options/helper.php:31
+#: modules/images/webp-support/helper.php:25
+#: modules/js-and-css/audit-enqueued-assets/helper.php:33
+#: modules/js-and-css/audit-enqueued-assets/helper.php:126
+msgid "Performance"
+msgstr "Производительность"
+
+#: admin/load.php:24 admin/load.php:111
+msgid "Performance Modules"
+msgstr "Модули производительности"
+
+#. Author of the plugin
+msgid "WordPress Performance Team"
+msgstr "WordPress Performance Team"
+
+#. Description of the plugin
+msgid "Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules."
+msgstr "Плагин производительности от WordPress Performance Team, который представляет собой набор отдельных модулей производительности."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/performance"
+msgstr "https://github.com/WordPress/performance"
+
+#. Plugin Name of the plugin
+#: admin/load.php:420
+msgid "Performance Lab"
+msgstr "Performance Lab"
